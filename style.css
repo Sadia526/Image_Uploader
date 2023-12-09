@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    background-color: rgb(238, 238, 183);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee6969;
+    height: 100vh;
+}
+.appbody{
+    border: 2px dotted #d1d6d6;
+    width: 700px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.appbody.active{
+    border: 3px solid blue;
+}
+.icon{
+font-size: 100px;
+color: rgb(5, 82, 56);
+}
+.appbody>h3{
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.appbody>span{
+    font-size:20px ;
+    font-weight: 500;
+    margin: 10px 0px;
+
+}
+.appbody>button{
+    padding: 10px 20px;
+    border: none;
+    color:green;
+    font-size: 15px;
+    cursor: pointer;
+}
+.appbody>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
